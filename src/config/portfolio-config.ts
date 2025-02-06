@@ -36,7 +36,7 @@ summary: [
 ],
   },
   experience: [
-    {
+   /* {
       company: "Infosys Ltd.",
       role: "Systems Test Engineer",
       period: "Dec 2021 - Aug 2022",
@@ -85,56 +85,117 @@ summary: [
       name: "Certified Scrum Master",
       authority: "Scrum Alliance",
       period: "2021"
-    }
-  ],*/
+    } */
+  ],
   skills: [
     {
-      category: "Programming",
-      items: ["Java", "MySQL"]
+      category: "Programming Languages & Technologies",
+      items: ["Java 8/11", "JavaScript", "TypeScript", "Go", "Shell Scripting"]
     },
     {
-      category: "Testing Tools",
-      items: ["Selenium", "TestNG", "Postman"]
+      category: "Frontend Development",
+      items: ["React.js", "Angular", "HTML5", "CSS3"]
     },
     {
-      category: "Project Management",
-      items: ["Jira", "CI/CD Pipelines"]
+      category: "Backend Development",
+      items: ["Spring Boot", "Spring MVC", "Spring AOP", "Hibernate/JPA", "RESTful APIs", "Microservices", "Node.js"]
     },
     {
-      category: "Testing Types",
-      items: ["API Testing", "Mobile Testing", "UI Testing"]
+      category: "Cloud & DevOps",
+      items: ["AWS (Lambda, ECS, RDS, API Gateway, SNS, SQS, CloudFront)", "Azure", "Docker", "Kubernetes", "Terraform", "CI/CD (Jenkins, GitHub Actions, ADO)"]
+    },
+    {
+      category: "Databases",
+      items: ["MySQL", "PostgreSQL", "MongoDB", "DynamoDB", "SQL Server", "Oracle"]
+    },
+    {
+      category: "Testing & Automation",
+      items: ["Jest", "Jasmine", "Detox", "Playwright", "K6 (Performance Testing)"]
+    },
+    {
+      category: "Other Technologies & Tools",
+      items: ["Apache Kafka", "Redis", "Boomi", "Git", "Agile/Scrum"]
     }
-  ],
+],
   projects: [
-    {
-      name: "Imprivata (IDG)",
-      description: "Led end-to-end testing of User Management platform for Healthcare industry",
-      highlights: ["Functional, system, and regression testing of identity and access management systems.","API testing for secure authentication methods using Postman.","Performed cross-browser compatibility testing to ensure system functionality across different browsers.","Defect analysis and tracking using Jira and TestRail.","Validated secure login and access control features, ensuring compliance with regulatory standards."]
-    },
-    {
-      name: "AFS - All For Sports",
-      description: "Implemented comprehensive test strategy for Booking and payment platform for sports events",
-      highlights: ["Performed functional testing on financial applications to ensure accurate transaction processing.","Conducted system testing to validate the integration of banking modules.","Regression testing to verify that recent changes didn’t impact existing features.","Developed and executed test cases using TestRail and tracked defects in Jira.","Worked with Agile Scrum teams for continuous feedback and issue resolution."]
-    },
-    {
-      name: "LRN",
-      description: "Managed QA processes for Ethical and compliance training platform",
-      highlights: ["Conducted UI testing to ensure a consistent and responsive user experience across different platforms.","Tested the contents as proofreader to ensure keen detailing of courses.","Done Audio and Multi-Language testing as per course requirements.", "Cross-broswer and compatibility testing in around 9 platforms.", "Collaborated with the development team to identify and resolve defects during UAT."]
-    },
-    {
-      name: "Avileap",
-      description: "Testing the aviation software using IoT to track the turnaround time of the aircraft",
-      highlights: ["	Conducted functional testing for aviation safety systems and system integration testing between ground systems and devices.", "Automated workflows using Selenium WebDriver for faster test execution.", "Performed regression testing to validate system updates and new features.", "Used Jira for defect tracking and TestRail for test case management.", "Ensured proper device communication and troubleshooting as part of the defect analysis process."]
-    },
-    {
-      name: "Space Basic",
-      description: "Quality Assurance for student housing platform",
-      highlights: ["Designed and executed functional and system test cases for student housing and communication platform features.", "Performed API testing to validate backend service communications.", "Conducted cross-browser compatibility testing to ensure consistent user experience across browsers.", "Automated test scripts using Selenium WebDriver with TestNG to speed up the regression testing process.", "Tracked defects and reported findings using Jira and TestRail."]
-    },
-    {
-      name: "Odcet",
-      description: "Social Networking platform for Connect, Chat, Buy, sell and share",
-      highlights: ["	Performed functional testing for various client projects to ensure that business requirements were met.", "Conducted regression testing and executed test cases using Selenium WebDriver.", "Ensured compatibility through cross-browser testing on multiple browsers.", "Utilized Jira for defect management and TestRail for test case creation and tracking.", "Worked in Agile Scrum teams to deliver testing support in sprint cycles."]
-    }
+      {
+          "name": "BNY Mellon",
+          "description": "Global investments company providing financial services for institutions and individuals.",
+          "highlights": [
+              "Developed Java applications using Java 17, Spring Boot, and Microservices.",
+              "Designed RESTful APIs and integrated them with front-end applications.",
+              "Implemented Kafka-based messaging for asynchronous communication.",
+              "Developed reusable UI components using React.js and Next.js.",
+              "Worked with AWS services like EC2, S3, RDS, and CloudWatch.",
+              "Implemented security measures using Spring Security and JWT authentication.",
+              "Managed CI/CD pipelines using Jenkins and GitHub Actions."
+          ]
+      },
+      {
+          "name": "Citi Bank",
+          "description": "Leading global bank offering financial services and investment solutions.",
+          "highlights": [
+              "Developed scalable microservices using Java 11, Spring Boot, and Hibernate.",
+              "Implemented API security using OAuth2 and JWT for secure authentication.",
+              "Built front-end components using React.js, Redux, and Next.js.",
+              "Designed and optimized SQL queries and managed PostgreSQL databases.",
+              "Integrated Kafka for real-time financial transaction processing.",
+              "Worked on cloud deployment using AWS services like EC2, RDS, and S3.",
+              "Managed CI/CD pipelines and automated deployments using Jenkins."
+          ]
+      },
+      {
+          "name": "DTCC",
+          "description": "Financial services company providing clearing and settlement solutions.",
+          "highlights": [
+              "Developed enterprise applications using Java 8, Spring Boot, and Microservices.",
+              "Implemented messaging queues using Kafka for real-time data streaming.",
+              "Designed and optimized database schemas using MySQL and PostgreSQL.",
+              "Developed UI components using Angular 10 and React.js.",
+              "Worked with Docker and Kubernetes for containerized deployments.",
+              "Integrated Azure cloud services and managed deployments.",
+              "Implemented CI/CD pipelines using Jenkins and Terraform."
+          ]
+      },
+      {
+          "name": "Anthem",
+          "description": "Leading healthcare insurance provider offering various health coverage plans.",
+          "highlights": [
+              "Built cloud-native applications using Java 8, Spring Boot, and AWS Lambda.",
+              "Developed and optimized REST APIs for healthcare claims processing.",
+              "Integrated DynamoDB and PostgreSQL for high-volume health records.",
+              "Ensured application security and HIPAA compliance.",
+              "Developed UI components using Angular 9 and React.js.",
+              "Managed microservices deployment using Docker, Kubernetes, and Jenkins.",
+              "Followed Agile/Scrum methodologies and participated in sprint planning."
+          ]
+      },
+      {
+          "name": "Imprivata",
+          "description": "Healthcare IT security company providing digital identity solutions.",
+          "highlights": [
+              "Developed web applications using Java, Spring Boot, and Hibernate.",
+              "Implemented MVC architecture using Spring Framework for modular design.",
+              "Developed and optimized SQL queries for back-end data storage.",
+              "Used React.js and Redux to create dynamic UI components.",
+              "Implemented message-driven communication using JMS.",
+              "Developed and deployed RESTful and SOAP web services.",
+              "Managed source control and CI/CD pipelines using Git and Jenkins."
+          ]
+      },
+      {
+          "name": "LRN",
+          "description": "Company focused on ethics and compliance learning solutions.",
+          "highlights": [
+              "Designed and developed applications using Java, Spring MVC, and Hibernate.",
+              "Implemented microservices-based architecture for modular development.",
+              "Developed RESTful and SOAP web services for integration with third-party systems.",
+              "Worked on database design and query optimization using MySQL.",
+              "Developed front-end UI using React.js, HTML5, and CSS3.",
+              "Followed Agile methodology and participated in daily stand-ups.",
+              "Performed unit testing using JUnit and integrated CI/CD pipelines."
+          ]
+      }
   ]
+  
 };

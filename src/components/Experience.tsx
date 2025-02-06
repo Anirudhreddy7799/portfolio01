@@ -7,7 +7,7 @@ export const Experience = () => {
   console.log(experience);
 
   if (!experience) {
-    return <div>No experience available</div>; // Fallback UI
+    return <div>No experience available</div>;
   }
 
   return (

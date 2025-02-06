@@ -7,7 +7,7 @@ export const Contact = () => {
   return (
     <section id="contact" className="py-20 bg-white">
       <div className="container px-4 mx-auto">
-        <motion.h2 
+        <motion.h2
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -30,7 +30,7 @@ export const Contact = () => {
             </p>
             <div className="space-y-4">
               <a
-                href={ portfolioConfig.personal.linkedin }
+                href={portfolioConfig.personal.linkedin}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block px-6 py-3 bg-[#0077B5] text-white rounded-lg hover:opacity-90 transition-opacity"
@@ -49,14 +49,14 @@ export const Contact = () => {
               >
                 Call me
               </a>
-              <a
-                href={ portfolioConfig.personal.linkedin }
+              {/*<a
+                href="https://anirudhreddyk.com/postbot-main"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block px-6 py-3 bg-[#0077B5] text-white rounded-lg hover:opacity-90 transition-opacity"
               >
                 Test01
-              </a>
+              </a> */}
             </div>
           </motion.div>
         </div>

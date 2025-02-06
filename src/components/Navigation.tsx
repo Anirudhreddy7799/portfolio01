@@ -38,13 +38,16 @@ export const Navigation = () => {
               </a>
             ))}
           </div>
-          <nav>
+          {/* <nav>
             <ul>
-              {/* <li><Link to="/">Home</Link></li>
-              <li><Link to="/about">About</Link></li> */}
-              <li><Link to="/postbot-main">Postbot Main</Link></li>
+              <>
+                <li><Link to="/">Home</Link></li>
+                <li><Link to="/about">About</Link></li>
+                <li><Link to="/postmain">Postmain</Link></li>
+                <li><Link to="/postbot-main">Postbot Main</Link></li>
+              </>
             </ul>
-          </nav>
+          </nav> */}
         </div>
       </div>
     </motion.nav>

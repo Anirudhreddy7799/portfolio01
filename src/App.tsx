@@ -6,6 +6,7 @@ import { Routes, Route } from "react-router-dom";
 import { useState } from "react";
 import Index from "./pages/Index";
 
+
 const App = () => {
   const [queryClient] = useState(() => new QueryClient());
 
@@ -14,6 +15,7 @@ const App = () => {
       <TooltipProvider>
         <Toaster />
         <Sonner />
+
         <Routes>
           <Route path="/" element={<Index />} />
         </Routes>
