@@ -37,28 +37,7 @@ summary: [
   },
   experience: [
    /* {
-      company: "Infosys Ltd.",
-      role: "Systems Test Engineer",
-      period: "Dec 2021 - Aug 2022",
-      responsibilities: [
-        "As a Systems Test Engineer, I led functional and UI testing initiatives, managed cross-browser and API testing operations, and supervised testing teams to deliver high-quality software products. My role involved ensuring robust test strategies, improving testing efficiency, and contributing to the successful deployment of client solutions."
-      ]
-    },
-    {
-      company: "Enhops Solutions",
-      role: "QA Engineer",
-      period: "Jan 2020 - Dec 2021",
-      responsibilities: [
-        "As a QA Engineer, I focused on implementing test automation frameworks, performing regression testing, and developing comprehensive test scripts and cases. Collaborating closely with development teams, I contributed to streamlining the testing lifecycle and ensuring seamless integration of automated and manual testing practices."
-      ]
-    },
-    {
-      company: "Odcet Technologies",
-      role: "QA Analyst",
-      period: " Sept 2019 - Jan 2020",
-      responsibilities: [
-        "As a QA Analyst, I honed my expertise in manual testing procedures, created detailed test documentation, and participated in documentaion formalities. I played a key role in identifying, reporting, and tracking defects while ensuring efficient communication across teams to resolve issues promptly and maintain product quality."
-      ]
+      
     }
   ],
   education: [
