@@ -5,7 +5,7 @@ export const portfolioConfig = {
     email: "anirudh.kalvala01@gmail.com",
     phone: "(856)-497-8818",
     location: "Texas, USA",
-    linkedin: "linkedin.com/in/anirudhreddyk/",
+    linkedin: "https://www.linkedin.com/in/anirudhreddyk/",
   },
   about: {
 summary: [
