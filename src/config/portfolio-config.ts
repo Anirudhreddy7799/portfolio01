@@ -6,6 +6,7 @@ export const portfolioConfig = {
     phone: "(856)-497-8818",
     location: "Texas, USA",
     linkedin: "https://www.linkedin.com/in/anirudhreddyk/",
+
   },
   about: {
 summary: [

@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { portfolioConfig } from "../config/portfolio-config";
 
-
+// Removed local declaration of portfolioConfig
 
 export const Contact = () => {
   return (
@@ -49,6 +49,7 @@ export const Contact = () => {
               >
                 Call me
               </a>
+              
               {/*<a
                 href="https://anirudhreddyk.com/postbot-main"
                 target="_blank"
